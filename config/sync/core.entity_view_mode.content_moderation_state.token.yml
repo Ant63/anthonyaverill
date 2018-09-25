@@ -1,0 +1,14 @@
+uuid: c7c8c770-8cdb-4e52-ae9d-6f712808bfe0
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_moderation
+    - lightning_core
+third_party_settings:
+  lightning_core:
+    internal: true
+id: content_moderation_state.token
+label: Token
+targetEntityType: content_moderation_state
+cache: true

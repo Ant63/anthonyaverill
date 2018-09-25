@@ -251,7 +251,7 @@ $databases = [];
  *   );
  * @endcode
  */
-$config_directories = [];
+$config_directories = [CONFIG_SYNC_DIRECTORY => '/var/www/anthonyaverill/config/sync'];
 
 /**
  * Settings:
