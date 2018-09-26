@@ -1,0 +1,14 @@
+uuid: 0b6599d6-1f78-406e-befb-d46d5c50de79
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.solution_reviewer
+  module:
+    - user
+id: user_add_role_action.solution_reviewer
+label: 'Add the Solution reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: solution_reviewer

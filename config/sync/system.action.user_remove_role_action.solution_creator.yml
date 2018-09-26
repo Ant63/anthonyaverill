@@ -1,0 +1,14 @@
+uuid: e766f986-bb4e-460a-89f6-f379f7eed963
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.solution_creator
+  module:
+    - user
+id: user_remove_role_action.solution_creator
+label: 'Remove the Solution creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: solution_creator

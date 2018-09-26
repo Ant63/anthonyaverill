@@ -1,0 +1,29 @@
+uuid: deaa8168-e8e4-498e-b844-a582c2d9311f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.solution
+    - taxonomy.vocabulary.tags
+id: node.solution.field_tags
+field_name: field_tags
+entity_type: node
+bundle: solution
+label: Tags
+description: 'Add tags to enable filtering of content. For example Library, twig'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

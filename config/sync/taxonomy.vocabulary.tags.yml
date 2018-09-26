@@ -1,0 +1,9 @@
+uuid: dc27ab72-55ce-40ea-a9aa-616e82020b36
+langcode: en
+status: true
+dependencies: {  }
+name: Tags
+vid: tags
+description: 'Tags for filtering content'
+hierarchy: 0
+weight: 0

@@ -1,0 +1,14 @@
+uuid: 62267b6f-61c6-458a-a0a9-6eb8603766a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.solution_reviewer
+  module:
+    - user
+id: user_remove_role_action.solution_reviewer
+label: 'Remove the Solution reviewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: solution_reviewer
