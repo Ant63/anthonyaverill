@@ -1,0 +1,14 @@
+uuid: 8bc4ed60-be07-435b-87b4-f68c3f55a1f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.solution_creator
+  module:
+    - user
+id: user_add_role_action.solution_creator
+label: 'Add the Solution creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: solution_creator

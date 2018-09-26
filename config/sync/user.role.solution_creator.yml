@@ -1,0 +1,29 @@
+uuid: 01d86caf-5c26-4c69-ab60-ed5228dc50b2
+langcode: en
+status: true
+dependencies: {  }
+id: solution_creator
+label: 'Solution creator'
+weight: 7
+is_admin: false
+permissions:
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access media_browser entity browser pages'
+  - 'access panels in-place editing'
+  - 'access toolbar'
+  - 'administer panelizer node solution content'
+  - 'administer panelizer node solution layout'
+  - 'change layouts in place editing'
+  - 'create solution content'
+  - 'create url aliases'
+  - 'edit own solution content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'use text format rich_text'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view own unpublished content'
+  - 'view solution revisions'

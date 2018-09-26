@@ -1,0 +1,19 @@
+uuid: 776e8ea0-decf-440b-bfab-32a3fdba8d92
+langcode: en
+status: true
+dependencies: {  }
+id: solution_reviewer
+label: 'Solution reviewer'
+weight: 8
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'delete any solution content'
+  - 'edit any solution content'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'view any unpublished content'
+  - 'view latest version'

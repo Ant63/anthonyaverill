@@ -1,0 +1,37 @@
+uuid: baca0533-4d6e-441e-a839-03e94e9b86fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.solution.body
+    - field.field.node.solution.field_tags
+    - node.type.solution
+  module:
+    - text
+    - user
+id: node.solution.default
+targetEntityType: node
+bundle: solution
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_tags:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
