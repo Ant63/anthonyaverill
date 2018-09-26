@@ -4,9 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.solution.body
+    - field.field.node.solution.field_meta_tags
     - field.field.node.solution.field_tags
     - node.type.solution
   module:
+    - metatag
     - text
     - user
 id: node.solution.default
@@ -20,6 +22,13 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_meta_tags:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
     region: content
   field_tags:
     weight: 102

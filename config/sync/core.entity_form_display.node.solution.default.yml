@@ -4,10 +4,12 @@ status: true
 dependencies:
   config:
     - field.field.node.solution.body
+    - field.field.node.solution.field_meta_tags
     - field.field.node.solution.field_tags
     - node.type.solution
   module:
     - content_moderation
+    - metatag
     - path
     - text
 id: node.solution.default
@@ -30,6 +32,12 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_meta_tags:
+    weight: 123
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
   field_tags:
     weight: 122
     settings:
